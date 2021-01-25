@@ -1,2 +1,21 @@
 @import 'variables';
 @import 'game';
+
+@media(max-width:900px){
+    .game__board{
+        width:80%;
+    }
+}
+@media(max-width:576px){
+    .game__life{
+        width:15vw;
+    }
+}
+@media(max-width:415px){
+    .game__life{
+        width:20vw;
+    }
+    .game__title{
+        font-size:1.2rem;
+    }
+}
