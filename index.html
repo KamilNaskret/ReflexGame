@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflex game</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <section class="game">
+        <div class="game__results">
+            <div class="game__life">
+                Życia:<span  data-life></span>
+            </div>
+            <div class="game__life">
+                Punkty:<span data-points></span>
+            </div>
+            <h1 class="game__title">
+                Reflex game!
+            </h1>
+            <div class="game__life">
+                Czas:<span data-timeleft></span>
+            </div>
+        </div>
+        <div class="game__container">
+            <div class="game__board">
+                
+            </div>
+            <div class="game__buttons">
+                <button class="game__start" data-start>
+                    Start
+                </button>
+                <button class="game__make" data-make>
+                    Stwórz planszę
+                </button>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="./script/app.js" defer></script>
+</body>
+</html>
